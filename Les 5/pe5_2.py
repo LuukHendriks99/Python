@@ -4,4 +4,4 @@ f.close()
 
 for line in lines:
     info = line.split(', ')
-    print(info[1].strip(), 'Heeft kaartnummer:', info[0], )
+    print(info[1].strip(), 'Heeft kaartnummer:', info[0])
