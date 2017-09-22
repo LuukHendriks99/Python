@@ -1,4 +1,6 @@
 maand = eval(input('Vul hier het maandummer in:'))
+
+
 def functie_seizoen(maand):
     if maand >= 1 and maand <= 2:
         print('winter')
@@ -10,5 +12,6 @@ def functie_seizoen(maand):
         print('herfst')
     elif maand == 12:
         print('winter')
+
 
 functie_seizoen(maand)

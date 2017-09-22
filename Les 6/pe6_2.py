@@ -5,4 +5,3 @@ for woord in aantal:
         list.append(woord)
 
 print('De nieuw-gemaakte lijst met alle vier-letter strings is:', list)
-
