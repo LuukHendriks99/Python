@@ -7,5 +7,5 @@ regels = len(intList)
 number = max(intList)
 string_format = 'Deze file telt {0} regels\n' \
                 'Het grootste kaartnummer is: {1} en dat staat op regel {2}'
-result = string_format.format(regels, number, str(intList.index(max(intList))))
+result = string_format.format(regels, number, str(intList.index(max(intList)) +1))
 print(result)
