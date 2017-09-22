@@ -7,4 +7,4 @@ def table(x):
     for waarde in x:
         print('{0:6.2f}{1:10}'.format(convert(waarde), waarde))
 
-table(range(-30, 41, 10))\
+table(range(-30, 41, 10))
