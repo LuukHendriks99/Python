@@ -48,6 +48,7 @@ def kluis_teruggeven():
     for line in f:
         if line == (nummer + ';' + code + '\n'):
             print('Kluisje is verwijderd')
+
         else:
             verwijder.write(line)
 
