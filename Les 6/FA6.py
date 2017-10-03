@@ -1,4 +1,5 @@
 def toon_aantal_kluizen_vrij():
+
     regels = sum(1 for regel in open('Kluizen.txt'))
     print('Het aantal vrije kluizen is:', 12 - regels)
 
