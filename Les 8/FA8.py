@@ -15,7 +15,6 @@ def inlezen_eindstation():
         eind = input('Vul hier uw eindstation in: ')
 
 
-
 stations = ['Schagen', 'Heerhugowaard','Alkmaar','Castricum', 'Zaandam', 'Amsterdam Sloterdijk', 'Amsterdam Centraal', 'Amsterdam Amstel', 'Utrecht Centraal', 's-Hertogenbosch', 'Eindhoven', 'Weert', 'Roermond',  'Sittard', 'Maastricht']
 beginstation = inlezen_beginstation(stations)
 
