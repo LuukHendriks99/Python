@@ -1,9 +1,16 @@
 import csv
 
 with open('scores.csv') as csvfile:
-    csv = csv.reader(csvfile, delimiter=';')
-    lijst = []
-    for row in csv:
-        lijst.append(row[2])
-print(lijst)
-print(max(lijst))
+    x = csv.reader(csvfile, delimiter=';')
+    spelers = []
+    scores = []
+    data = []
+    for row in x:
+        speler = row[0]
+        datum = row [1]
+        score = row [2]
+
+        spelers.append(speler)
+        data.append(datum)
+        scores.append(score)
+    print(max(scores))
